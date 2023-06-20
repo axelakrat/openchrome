@@ -1,0 +1,7 @@
+import os
+
+def open_chrome():
+    chrome_path = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"  # Chrome uygulamasının yolu
+    os.startfile(chrome_path)
+
+open_chrome()
